@@ -1,6 +1,7 @@
 Next.js 13 Full Course 2023 | Build and Deploy a Full Stack App Using the Official React Framework
 (https://www.youtube.com/watch?v=wm5gMKuwSYk)
 
+https://github.com/adrianhajdin/project_next_13_ai_prompt_sharing
 https://github.com/Annie-Huang/next-13-share-prompts
 
 https://nextjs.org/docs/pages/building-your-application/routing/pages-and-layouts#layout-pattern
