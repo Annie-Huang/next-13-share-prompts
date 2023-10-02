@@ -1,5 +1,6 @@
 // use @ instead of @/ because we change it in jsconfig.json
 import '@styles/globals.css';
+import Nav from '@components/Nav';
 
 export const metadata = {
   title: 'Promptopia',
@@ -12,7 +13,10 @@ const RootLayout = ({ children }) => {
         <div class='main'>
           <div class='gradient'></div>
         </div>
-        <main class='app'>{children}</main>
+        <main class='app'>
+          <Nav />
+          {children}
+        </main>
       </body>
     </html>
   );

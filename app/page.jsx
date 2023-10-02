@@ -1,3 +1,5 @@
+import Feed from '@components/Feed';
+
 const Home = () => {
   // .head_text is defined in the global.css. all the "_" class is from the global.css
   return (
@@ -11,7 +13,7 @@ const Home = () => {
         discover, create and share creative prompts
       </p>
 
-      {/* Feed */}
+      <Feed />
     </section>
   );
 };
