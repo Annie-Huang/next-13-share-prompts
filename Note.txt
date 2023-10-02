@@ -7,6 +7,9 @@ https://nextjs.org/docs/pages/building-your-application/routing/pages-and-layout
 https://nextjs.org/docs/app/building-your-application/rendering/composition-patterns
 
 ---------------------------------------------------------------------------
+PS C:\react\next-13-share-prompts> npm install bcrypt mongodb mongoose next-auth
+
+---------------------------------------------------------------------------
 
 PS C:\react> npx create-next-app@latest
 √ What is your project named? ... next-13-share-prompts
