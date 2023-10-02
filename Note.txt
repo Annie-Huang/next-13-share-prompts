@@ -3,6 +3,9 @@ Next.js 13 Full Course 2023 | Build and Deploy a Full Stack App Using the Offici
 
 https://github.com/Annie-Huang/next-13-share-prompts
 
+https://nextjs.org/docs/pages/building-your-application/routing/pages-and-layouts#layout-pattern
+https://nextjs.org/docs/app/building-your-application/rendering/composition-patterns
+
 ---------------------------------------------------------------------------
 
 PS C:\react> npx create-next-app@latest
@@ -15,3 +18,6 @@ PS C:\react> npx create-next-app@latest
 √ Would you like to customize the default import alias? ... No / Yes    <---- Yes
 √ What import alias would you like configured? ... @/*                  <---- @/*
 Creating a new Next.js app in C:\react\next-13-share-prompts.
+
+---------------------------------------------------------------------------
+A folder can either has a page.js or a route.js. It cannot have both.
