@@ -26,3 +26,6 @@ Creating a new Next.js app in C:\react\next-13-share-prompts.
 
 ---------------------------------------------------------------------------
 A folder can either has a page.js or a route.js. It cannot have both.
+
+In jsconflig.json:
+   change "@/*": ["./*"] to "@*": ["./*"]

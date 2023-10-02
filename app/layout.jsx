@@ -1,4 +1,5 @@
-import '@/styles/globals.css';
+// use @ instead of @/ because we change it in jsconfig.json
+import '@styles/globals.css';
 
 export const metadata = {
   title: 'Promptopia',
