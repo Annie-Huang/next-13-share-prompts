@@ -1,0 +1,17 @@
+Next.js 13 Full Course 2023 | Build and Deploy a Full Stack App Using the Official React Framework
+(https://www.youtube.com/watch?v=wm5gMKuwSYk)
+
+https://github.com/Annie-Huang/next-13-share-prompts
+
+---------------------------------------------------------------------------
+
+PS C:\react> npx create-next-app@latest
+√ What is your project named? ... next-13-share-prompts
+√ Would you like to use TypeScript? ... No / Yes                        <---- No
+√ Would you like to use ESLint? ... No / Yes                            <---- No
+√ Would you like to use Tailwind CSS? ... No / Yes                      <---- Yes
+√ Would you like to use `src/` directory? ... No / Yes                  <---- No
+√ Would you like to use App Router? (recommended) ... No / Yes          <---- Yes
+√ Would you like to customize the default import alias? ... No / Yes    <---- Yes
+√ What import alias would you like configured? ... @/*                  <---- @/*
+Creating a new Next.js app in C:\react\next-13-share-prompts.
