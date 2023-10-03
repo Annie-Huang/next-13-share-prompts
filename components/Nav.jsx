@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import { getProviders, signOut } from 'next-auth/react';
+import { getProviders, signIn, signOut } from 'next-auth/react';
 import { useEffect, useState } from 'react';
 
 const Nav = () => {
@@ -54,7 +54,19 @@ const Nav = () => {
             </Link>
           </div>
         ) : (
-          <></>
+          <>
+            {providers &&
+              Object.values(providers).map((provider) => (
+                <button
+                  type='button'
+                  key={provider.name}
+                  onClick={() => signIn(provider.id)}
+                  className='black_btn'
+                >
+                  Sign In
+                </button>
+              ))}
+          </>
         )}
       </div>
     </nav>
