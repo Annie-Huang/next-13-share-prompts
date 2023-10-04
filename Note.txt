@@ -12,6 +12,11 @@ https://console.cloud.google.com/
 https://cloud.mongodb.com/      <---- Don't use google connection. I created an account under gmail
                                       Continue to use AnnieCluster
 
+https://next-auth.js.org/getting-started/example
+https://next-auth.js.org/getting-started/example#extensibility
+https://next-auth.js.org/configuration/options#secret       <----- This is the hash NEXTAUTH_SECRET value in .env
+https://www.cryptool.org/en/cto/openssl                     <----- run 'openssl rand -base64 32' in it to get the NEXTAUTH_SECRET value
+
 ---------------------------------------------------------------------------
 PS C:\react\next-13-share-prompts> npm install bcrypt mongodb mongoose next-auth
 
