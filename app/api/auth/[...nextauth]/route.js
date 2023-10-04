@@ -1,5 +1,6 @@
 import NextAuth from 'next-auth';
 import GoogleProvider from 'next-auth/providers/google';
+import { connectToDB } from '@utils/database';
 
 // console.log({
 //   childId: process.env.GOOGLE_ID,
@@ -17,7 +18,17 @@ const handler = NextAuth({
   async signIn({ profile }) {
     try {
       // serverless -> Lambda -> dynamodb
-    } catch (error) {}
+      await connectToDB();
+
+      // check if a user already exists
+
+      // if not, create a new user
+
+      return true;
+    } catch (error) {
+      console.log(error);
+      return false;
+    }
   },
 });
 

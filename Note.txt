@@ -9,6 +9,8 @@ https://nextjs.org/docs/pages/building-your-application/routing/pages-and-layout
 https://nextjs.org/docs/app/building-your-application/rendering/composition-patterns
 
 https://console.cloud.google.com/
+https://cloud.mongodb.com/      <---- Don't use google connection. I created an account under gmail
+                                      Continue to use AnnieCluster
 
 ---------------------------------------------------------------------------
 PS C:\react\next-13-share-prompts> npm install bcrypt mongodb mongoose next-auth
