@@ -8,6 +8,8 @@ https://github.com/Annie-Huang/next-13-share-prompts
 https://nextjs.org/docs/pages/building-your-application/routing/pages-and-layouts#layout-pattern
 https://nextjs.org/docs/app/building-your-application/rendering/composition-patterns
 
+https://console.cloud.google.com/
+
 ---------------------------------------------------------------------------
 PS C:\react\next-13-share-prompts> npm install bcrypt mongodb mongoose next-auth
 
