@@ -4,14 +4,14 @@ import { connectToDB } from '@utils/database';
 import User from '@models/user';
 
 // console.log({
-//   childId: process.env.GOOGLE_ID,
+//   clientId: process.env.GOOGLE_ID,
 //   clientSecret: process.env.GOOGLE_CLIENT_SECRET,
 // });
 
 const handler = NextAuth({
   providers: [
     GoogleProvider({
-      childId: process.env.GOOGLE_ID,
+      clientId: process.env.GOOGLE_ID,
       clientSecret: process.env.GOOGLE_CLIENT_SECRET,
     }),
   ],

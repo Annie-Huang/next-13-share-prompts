@@ -16,6 +16,8 @@ https://next-auth.js.org/getting-started/example
 https://next-auth.js.org/getting-started/example#extensibility
 https://next-auth.js.org/configuration/options#secret       <----- This is the hash NEXTAUTH_SECRET value in .env
 https://www.cryptool.org/en/cto/openssl                     <----- run 'openssl rand -base64 32' in it to get the NEXTAUTH_SECRET value
+https://next-auth.js.org/getting-started/rest-api#getpost-apiauthcallbackprovider   <---- Need to add 'http://localhost:3000/api/auth/callback/google' into Web client1 in google console.
+
 
 ---------------------------------------------------------------------------
 PS C:\react\next-13-share-prompts> npm install bcrypt mongodb mongoose next-auth
